@@ -37,7 +37,7 @@ elif option == 'Lasso Regression':
 elif option == 'Random Forest Regression':
     with open('rf_rs.pkl','rb') as f:
         model=pickle.load(f)
-elif option == 'AdaBoost Regression':
+elif option == 'Ada Boost Regression':
     with open('ab_rs.pkl','rb') as f:
         model=pickle.load(f)
 elif option == 'Gradient Boosting Regression':
